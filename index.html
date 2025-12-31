@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="converter-box">
+        <h2>Unit Converter</h2>
+        
+        <div class="input-group">
+            <label>Amount</label>
+            <input type="number" id="inputAmount" placeholder="Enter value..." value="1">
+        </div>
+
+        <div class="selection-group">
+            <div class="unit-col">
+                <label>From</label>
+                <select id="fromUnit">
+                    <option value="meters">Meters (m)</option>
+                    <option value="kilometers">Kilometers (km)</option>
+                    <option value="miles">Miles (mi)</option>
+                    <option value="feet">Feet (ft)</option>
+                </select>
+            </div>
+
+            <div class="unit-col">
+                <label>To</label>
+                <select id="toUnit">
+                    <option value="meters">Meters (m)</option>
+                    <option value="kilometers" selected>Kilometers (km)</option>
+                    <option value="miles">Miles (mi)</option>
+                    <option value="feet">Feet (ft)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="result-area">
+            <p id="resultText">1 Meter = 0.001 Kilometers</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- echo "# Currency_Converter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sujalredekaer27/Currency_Converter.git
+git push -u origin main
+
+echo "# Unit-Converter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sujalredekaer27/Unit-Converter.git
+git push -u origin main -->
